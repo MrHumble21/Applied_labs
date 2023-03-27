@@ -1,0 +1,16 @@
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item {
+  width: calc(100% / 4);
+  padding: 20px;
+  box-sizing: border-box;
+}

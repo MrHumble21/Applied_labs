@@ -1,0 +1,115 @@
+/* Adds 10px of padding to an element */
+.padding {
+  padding: 10px;
+}
+
+/* Adds 20px of padding to an element */
+.padding2 {
+  padding: 20px;
+}
+
+/* Adds 30px of padding to an element */
+.padding3 {
+  padding: 30px;
+}
+
+/* Adds 5px of padding to the top and bottom of an element */
+.padding-top-bottom {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Adds 10px of padding to the left and right of an element */
+.padding-left-right {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Adds 15px of padding to all sides of an element */
+.padding-all-sides {
+  padding: 15px;
+}
+/* Adds 10px of margin to an element */
+.margin {
+  margin: 10px;
+}
+
+/* Adds 20px of margin to an element */
+.margin2 {
+  margin: 20px;
+}
+
+/* Adds 30px of margin to an element */
+.margin3 {
+  margin: 30px;
+}
+
+.margin4 {
+  margin: 40px;
+}
+
+.margin5 {
+  margin: 50px;
+}
+
+/* Adds 5px of margin to the top and bottom of an element */
+.margin-top-bottom {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+.margin-top-bottom-10 {
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+/* Adds 10px of margin to the left and right of an element */
+.margin-left-right {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Adds 15px of margin to all sides of an element */
+.margin-all-sides {
+  margin: 15px;
+}
+
+.container-black {
+  background-color: #000000;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+/* resonsive design */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+.box {
+  flex: 1 1 100%;
+  /* padding: 20px; */
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .box {
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+  }
+}
+.center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
