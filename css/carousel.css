@@ -59,3 +59,67 @@
   position: absolute;
   top: 10;
 }
+
+@media (max-width: 567px) {
+  .carousel-container {
+    position: relative;
+  }
+
+  .carousel-wrapper {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .carousel-item {
+    /* flex: 0 0 calc(100% / 2); */
+    /* margin-right: 20px; */
+    position: relative;
+  }
+
+  .carousel-item:last-of-type {
+    margin-right: 0;
+  }
+
+  .carousel-navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .carousel-prev,
+  .carousel-next {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+
+  .carousel-prev:hover,
+  .carousel-next:hover {
+    background-color: #999;
+    cursor: pointer;
+  }
+
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .carousel-item {
+    width: 100%;
+    /* padding: 20px; */
+    box-sizing: border-box;
+  }
+
+  .badge-shipping {
+    position: absolute;
+    top: 10;
+  }
+}

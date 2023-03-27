@@ -365,7 +365,7 @@ body > header > nav:nth-child(1) {
 .nav-links-container {
   display: none;
 }
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   .navbar-desktop {
     display: none;
   }
